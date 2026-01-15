@@ -10,22 +10,22 @@ He can change what he wants to retrieve in the GET, like timesAccessed or other 
 
 ## Tech Stack
 
-Spring Boot 4.0.1
-Java 25
-PostgreSQL 18
+- Spring Boot 4.0.1  
+- Java 25
+- PostgreSQL 18
 
 ## Use Cases
 
-Social Media Sharing:
-  When posting on Twitter, LinkedIn, or Instagram, users want short links to save character space and make posts cleaner.
+Social Media Sharing:  
+  When posting on Twitter, LinkedIn, or Instagram, users want short links to save character space and make posts cleaner.  
   Example: Sharing a long blog post URL as https://short.ly/abc123.
 
-Marketing Campaigns:
-  Marketers want trackable links for emails, ads, or QR codes.
+Marketing Campaigns:  
+  Marketers want trackable links for emails, ads, or QR codes.  
   Example: A campaign sends https://short.ly/summer2026 to measure clicks.
 
-Print Materials:
-  When adding links to flyers, posters, or business cards, long URLs are inconvenient.
+Print Materials:  
+  When adding links to flyers, posters, or business cards, long URLs are inconvenient.  
   Example: A short URL printed on a brochure directs people to a signup page.
 
 ## Set-up
