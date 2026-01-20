@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: shortener
+
+    datasource:
+        url: jdbc:postgresql://localhost:5432/shortenerDB
+        username: postgres
+        password: password
+
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+        database-plataform: org.hibernate.dialect.PostgreSQLDialect
+server:
+    error:
+        include-message: always
