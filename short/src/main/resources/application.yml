@@ -1,7 +1,8 @@
 spring:
     application:
         name: shortener
-
+    profiles:
+        active: prd
     datasource:
         url: jdbc:postgresql://localhost:5432/shortenerDB
         username: postgres
