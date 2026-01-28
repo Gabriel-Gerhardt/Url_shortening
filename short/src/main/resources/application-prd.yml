@@ -6,12 +6,12 @@ spring:
     url: jdbc:postgresql://localhost:5432/shortenerDB
     username: postgres
     password: password
+    driver-class-name: org.postgresql.Driver
 
   jpa:
     show-sql: false
     hibernate:
       ddl-auto: update
-    database-plataform: org.hibernate.dialect.PostgreSQLDialect
-server:
-  error:
-    include-message: always
+  web:
+    error:
+      include-message: always

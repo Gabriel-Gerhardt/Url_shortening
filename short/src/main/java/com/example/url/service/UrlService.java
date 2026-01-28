@@ -55,12 +55,14 @@ public class UrlService {
 
     public void validateShortUrlExists(Url url){
         if (url == null){
-            throw new ShortUrlDoesNotExist(HttpStatus.NOT_FOUND,"The shortUrl does not exist in the database");
+            throw new ShortUrlDoesNotExist
+                    (HttpStatus.NOT_FOUND,"The shortUrl does not exist in the database");
         }
     }
     public void validateUrlRequestIsValid(UrlRequest urlRequest){
         if(urlRequest.originalUrl() == null){
-            throw new InvalidUrlRequestException(HttpStatus.BAD_REQUEST,"Invalid request for shortener url");
+            throw new InvalidUrlRequestException
+                    (HttpStatus.BAD_REQUEST,"Invalid request for shortener url");
         }
     }
 
